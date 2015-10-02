@@ -1,0 +1,30 @@
+/* Changement de style pour la barre de navigation
+-------------------------------------------------- */
+
+
+/**navbar**************************/
+
+
+/* Styles pour tous les liens du menu */
+#navbar a {
+    
+    
+    color: #fff;
+}
+
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+#navbar a:hover, #navbar a:focus {
+    background-color:#0892d0;
+    color: #000;
+}
+
+/* Styles pour la rubrique active */
+#navbar #active a {
+    background-color:#0892d0;
+    color: #000;
+}
+/**dropdown-menu**************************/
+/* Styles du sous menu dropdown avec un fond gris */
+.dropdown-menu {
+    background: #AAAAAA;
+}
